@@ -1,0 +1,83 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+.bigContainer {
+  width: 80vw;
+  height: 100vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar {
+  width: 220px;
+  height: 100vh;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.posts {
+  width: 22vw;
+  height: 100vh;
+  /* border: 1px solid black; */
+  background-color: white;
+  overflow: scroll;
+}
+.profile {
+  width: 15vw;
+  height: 1000px;
+  /* border: 1px solid black; */
+  background-color:white;
+}
+.navbarButton {
+  height: 64px;
+  width: 220px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.navbarButtonContainer {
+  width: 100%;
+  height: auto;
+  border: 1px solid grey;
+}
+.navbarLogo {
+  height: 73px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarImg {
+  height: 20px;
+  width: 20px;
+}
+.storyImg {
+  height: 80px;
+  width: 80px;
+  border : 2px solid crimson;
+  border-radius: 50%;
+  gap: auto;
+  background-color: black;
+  background: 
+    linear-gradient(to bottom left, #6600ff, #ff9900);
+}
+.container {
+  margin-top: 100px;
+  height: 10vh;
+  border: 1.5px solid grey;
+  background-color: white;
+  display: flex;
+  overflow: scroll;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.storyContainer {
+  margin-left: 20px; 
+}
+
